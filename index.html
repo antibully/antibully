@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
+  	<script>
+        function copyText() {
+     
+            /* Copy text into clipboard */
+            navigator.clipboard.writeText
+                ("https://bit.ly/antibullyaustintown");
+        }
+</script>
   	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?		family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <style>
+      button {
+      position: absolute; 
+      bottom: 5px;
+      font-family:Kanit;
+      padding: 5px 20px;
+      transition-duration: .4s;
+      border: 5px solid green;
+      border-radius: 2px;
+      }
+      button:hover {
+      background-color:#00bb00;
+      }
       h1 {
       	font-family:Kanit;
       	text-align: center;
@@ -25,13 +45,14 @@
       color:#f40010;
       }
       a {
+      border-radius: 10px;
       font-family:Kanit;
       font-size:20px;
         padding: 15px 20px;
         background-color: white; 
         color: black; 
         transition-duration: .6s;
-        border: 2px solid blue;
+        border: 4px solid #4040ff;
       }
 
       a:hover {
@@ -49,9 +70,11 @@
       <h1>Bullying</h1>
       <h2>___</h2>
       <h2>In Austintown Schools</h2>
-      <h3 style="text-indent:50px">Bullying is a serious issue, and in Austintown Schools, it's no exeption. So, if bullying happens so often, why don't we stop it? Well, the real reason is there is no definite solution, but we can get very close, so if you are getting bullied or even seeing someone getting bullied, report it here.</h3>
+      <h3 style="text-indent:50px">Bullying is a serious issue, and in Austintown Schools, it's no exeption. So, if bullying happens so often, why don't we stop it? Well, the real reason is there is no best solution, but we can get very close, so if you are getting bullied or even seeing someone getting bullied, report it here, it helps the school, and the people.</h3>
       <div style="text-align:center;">
       <a target="_blank" class="button button" href="https://forms.gle/NJJ2YPb8sC6Mhska6"> Report Bullying </a>
       </div>
+      <br><br>
+            <button onclick="copyText()">Copy to Clipboard!</button>
   </body>
 </html>
