@@ -14,7 +14,7 @@
       button {
       cursor:pointer;
       position: absolute; 
-      bottom: 5px;
+      bottom: 10px;
       font-family:Kanit;
       padding: 5px 20px;
       transition-duration: .4s;
@@ -23,6 +23,13 @@
       }
       button:hover {
       background-color:#00bb00;
+      box-shadow:0 4px #000000;
+      }
+      button:active {
+      transition-duration: .2s;
+      background-color:#009900;
+      border: 5px solid #007700;
+      box-shadow:0 2px #000000;
       }
       h1 {
       text-shadow:-3px -3px 0px black;
@@ -45,6 +52,7 @@
      font-size:35px;
   		   }
       h3 {
+      font-size: 25px;
             	-webkit-text-stroke-width:.5px;
         -webkit-text-stroke-color:black;
       text-shadow:-3px -3px 0px black;
@@ -66,10 +74,16 @@
       a:hover {
         background-color: red;
         color: white;
+        box-shadow:0 6px #000000;
+       }
+       a:active {
+       transition-duration: .2s;
+       box-shadow:0 2px #000000;
+       background-color: #990000;
        }
       body {
         font-family:'Times New Roman', serif;
-        background-color:#2020b4;
+        background-image:#2020b4;
       }
     </style>
     <title>Anti Bully</title>
@@ -78,11 +92,11 @@
       <h1>Bullying</h1>
       <h2>___</h2>
       <h2>In Austintown Schools</h2>
-      <h3 style="text-indent:50px">Bullying is a serious issue, and in Austintown Schools, it's no exeption. So, if bullying happens so often, why don't we stop it? Well, the real reason is there is no best solution, but we can get very close, so if you are getting bullied or even seeing someone getting bullied, report it here, it helps the school, and the people.</h3>
+      <h3 style="text-indent:50px">Bullying is a serious issue, and in Austintown Schools, it's no exeption, so if you get bullied or see someone getting bullied, report it here, it helps everyone here.</h3>
       <div style="text-align:center;">
       <a target="_blank" class="button button" href="https://forms.gle/NJJ2YPb8sC6Mhska6"> Report Bullying </a>
       </div>
       <br><br>
-            <button onclick="copyText()">Copy to Clipboard!</button>
+            <button onclick="copyText()">Share</button>
   </body>
 </html>
