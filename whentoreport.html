@@ -9,7 +9,7 @@
     <style>
 	img {
         padding-left: 20px;
-    float: left;
+    	float: left;
 	height:100px;
 	width:100px;
 	}
@@ -43,7 +43,7 @@
       }
       .bottom:hover {
       background-color:#00bb00;
-      box-shadow:0 4px #002000;
+      box-shadow:4px 4px #002000;
       }
       .bottom:active {
       transition-duration: .2s;
@@ -71,23 +71,31 @@
       font-family:Kanit;
       color:white;
       }
-      .a {
-      cursor:pointer;
-      border-radius: 10px;
+    .top {
+    text-decoration:none;
+          cursor:pointer;
       font-family:Kanit;
       font-size:20px;
         padding: 15px 20px;
-        background-color: white; 
-        color: #000000; 
+        background-color: #a11111; 
+        color: white; 
         transition-duration: .6s;
-        border: 6px solid #4040ff;
-        animation: floating 4s infinite;
-      }
-
-      .a:hover {
-        background-color: red;
+        }
+        .top:hover {
+                        font-size:22px;
+                padding: 27px 22px;
+        background-color: #711111;
         color: white;
-       }
+        box-shadow: 5px 5px #111111;
+        }
+                .top:active {
+                font-size:25px;
+                padding: 20px 25px;
+                transition-duration: .2s;
+        background-color: #600000;
+        color: white;
+        box-shadow: 0px 2px #222222;
+        }
       html {
         font-family:'Times New Roman', serif;
         width:100%;
